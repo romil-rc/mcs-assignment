@@ -30,11 +30,9 @@ body{
     margin-top: 7px;
     cursor: pointer;
 }
-.navImgA{
-    background-color: #073221;
-    border-radius: 50%;
-}
 .navImg{
+    border-radius: 50%;
+    background-color: #073221;
     width: 50px;
     padding: 10px;
     filter: drop-shadow(0 0 0.75rem white);
@@ -54,6 +52,60 @@ body{
     top: -20%;
     height: 250px;
     width: 250px;
+}
+@media only screen and (min-width: 0px) and (max-width: 529px) {
+	#profilePhoto{
+        position: absolute;
+        left: 0.5%;
+        top: 27%;
+        height: 80px;
+        width: 80px;
+    }
+}
+@media only screen and (min-width: 530px) and (max-width: 609px) {
+	#profilePhoto{
+        position: absolute;
+        left: 0.5%;
+        top: 20%;
+        height: 120px;
+        width: 120px;
+    }
+}
+@media only screen and (min-width: 610px) and (max-width: 719px) {
+	#profilePhoto{
+        position: absolute;
+        left: 0.5%;
+        top: -3%;
+        height: 140px;
+        width: 140px;
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 814px) {
+	#profilePhoto{
+        position: absolute;
+        left: 1%;
+        top: -4%;
+        height: 165px;
+        width: 165px;
+    }
+}
+@media only screen and (min-width: 815px) and (max-width: 879px) {
+	#profilePhoto{
+        position: absolute;
+        left: 1.5%;
+        top: -5%;
+        height: 180px;
+        width: 180px;
+    }
+}
+@media only screen and (min-width: 880px) and (max-width: 992px) {
+	#profilePhoto{
+        position: absolute;
+        left: 0.5%;
+        top: -5%;
+        height: 200px;
+        width: 200px;
+    }
 }
 #green{
     justify-content: space-evenly;

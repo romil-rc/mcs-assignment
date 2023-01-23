@@ -1,0 +1,295 @@
+body{
+    background-color: rgb(192, 192, 192);
+}
+.navbar{
+    padding: 0px 0px;
+}
+#aLogo{
+    padding: 0px;
+    margin-left: -12px;
+    background-color: white;
+    transform: skewX(-40deg);
+    width: 230px;
+}
+#coinvest{
+    height: 100%;
+    width: 180px;
+    transform: skew(40deg);
+}
+#searchInput{
+    padding: 15px;
+    border-radius: 30px;
+    font-style: italic;
+}
+#searchImage{
+    position: absolute;
+    zoom: 1.8;
+    background-color: white;
+    width: 25px;
+    margin-left: 80px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.navImgA{
+    background-color: #073221;
+    border-radius: 50%;
+}
+.navImg{
+    width: 50px;
+    padding: 10px;
+    filter: drop-shadow(0 0 0.75rem white);
+    /* background-color: green; */
+    transition: 0.2s;
+    cursor: pointer;
+}
+.navImg:hover{
+    filter: drop-shadow(0 0 0.1rem white);
+}
+#profileDiv{
+    position: relative;
+}
+#profilePhoto{
+    position: absolute;
+    left: 3%;
+    top: -20%;
+    height: 250px;
+    width: 250px;
+}
+#green{
+    justify-content: space-evenly;
+    padding-left: 10%;
+    /* background-color: #073221; */
+    background-image: radial-gradient(#027835, #073221);
+    color: white;
+    padding-top: 7px;
+    font-size: 28px;
+    font-weight: 500;
+}
+#yellow{
+    /* background-color: yellow; */
+    background-image: radial-gradient(#f9bc16, #987704);
+    padding-left: 23%;
+    color: white;
+    padding-top: 7px;
+    font-size: 40px;
+    font-weight: 500;
+}
+#dark{
+    background-color: #1e1e1e;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    color: white;
+    padding-top: 7px;
+    font-size: 25px;
+}
+#dark span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.location{
+    margin: 20px;
+    /* padding: 10px; */
+    color: white;
+    display: flex;
+    background-color: #1e1e1e;
+    height: 60px;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.locationImg{
+    height: 30px;
+    padding-left: 40px;
+}
+.locationText{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+.description{
+    margin: 20px;
+}
+.descriptionTitle{
+    display: flex;
+    background-color: #1e1e1e;
+    color: white;
+    /* justify-content: space-between; */
+    height: 60px;
+    align-items: center;
+}
+.descriptionImg{
+    height: 30px;
+    padding-left: 40px;
+}
+.descriptionText{
+    margin: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.descriptionBody{
+    padding: 30px;
+    padding-left: 60px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border-bottom-left-radius: 50px;
+}
+#lorem{
+    font-size: 10px;
+    line-height: 1.2;
+    text-align: justify;
+}
+#emptydesc{
+    height: 500px;
+    border-bottom-left-radius: 0px;
+}
+.descriptionImgBody{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    line-height: 0.8;
+}
+.pic{
+    height: 120px;
+    width: 110px;
+    border-radius: 30px;
+}
+.name{
+    font-size: larger;
+    font-weight: 600;
+}
+.designation{
+    font-size: small;
+    font-weight: 500;
+}
+.btnText{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+.detail{
+    margin: 20px;
+    margin-bottom: 110px;
+}
+.detailTitle{
+    display: flex;
+    /* background-color: #1e1e1e; */
+    background-image: linear-gradient(to right, #d6a310 , #987704);
+    color: white;
+    /* justify-content: space-between; */
+    height: 80px;
+    align-items: center;
+}
+.detailImg{
+    height: 60px;
+    margin-left: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.detailText{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+.detailTextEnd{
+    margin: 0px;
+    padding-left: 30%;
+}
+.detailBody{
+    padding: 30px;
+    padding-left: 60px;
+    background-color: white;
+    font-size: 14.9px;
+    font-weight: 600;
+    color: black;
+    /* border-bottom-left-radius: 50px; */
+}
+#detailFooterMany{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(212, 212, 212);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.detSpan{
+    padding: 8px;
+    background-color: #073221;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.detImg{
+    height: 20px;
+    filter: drop-shadow(0 0 0.75rem white);
+    transition: 50ms;
+    cursor: pointer;
+}
+.detImg:hover{
+    filter: drop-shadow(0 0 0.1rem white);
+}
+.detSpanMany{
+    padding: 15px;
+    background-color: #073221;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.detImgMany{
+    height: 30px;
+    filter: drop-shadow(0 0 0.75rem white);
+    cursor: pointer;
+}
+.detImgMany:hover{
+    filter: drop-shadow(0 0 0.1rem white);
+}
+.blueBoxBody{
+    padding: 30px;
+    background-color: white;
+}
+.blueBox{
+    display: flex;
+    background-color: rgb(58, 199, 199);
+    height: 55px;
+    align-items: center;
+}
+.blueBoxImg{
+    height: 30px;
+    margin-left: 20px;
+}
+.blueBoxText{
+    margin: 0px;
+    margin-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.greyBoxBody{
+    padding: 0px 50px;
+    background-color: white;
+}
+.greyBoxText{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 8px;
+}
+.greyBox{
+    background-color: rgb(150, 150, 150);
+    height: 30px;
+}
+.blankSpace{
+    height: 50px;
+    background-color: white;
+}
+.detailTextLast{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 18px;
+}
+.detailTextEndLast{
+    margin: 0px;
+    padding-left: 22%;
+}
